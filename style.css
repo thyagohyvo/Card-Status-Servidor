@@ -1,0 +1,118 @@
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: px;
+}
+
+.card-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  padding: 30px;
+}
+
+.card-title {
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+
+.card {
+  background: #0e1433;
+  border-radius: 16px;
+  padding: 45px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.values-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0;
+}
+
+.value-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 5px;
+  width: 30px;
+}
+
+.icon-wrapper {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 2px;
+}
+
+.icon-wrapper img.icon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 1;
+  filter: brightness(0) invert(1);
+}
+
+.icon-ring {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: conic-gradient(rgba(255, 255, 255, 0.05) 0% 100%);
+  -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 3px), black calc(100% - 2px));
+  mask: radial-gradient(farthest-side, transparent calc(100% - 3px), black calc(100% - 2px));
+  transition: background 0.5s ease;
+  z-index: 0;
+}
+
+.value-box h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+}
+
+.value-label {
+  font-size: 10px;
+  font-weight: 400;
+  color: #a0a0a0;
+  margin-top: 15px;
+}
+
+/* ONLINE/OFFLINE */
+.online-box {
+  justify-content: center;
+}
+
+.status-indicator {
+  background-color: #00c26f;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 4px 4px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 194, 111, 0.5);
+  text-align: center;
+  transition: all 0.3s ease;
+}

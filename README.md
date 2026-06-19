@@ -145,3 +145,5 @@ A ordem dos quatro `.value-box` precisa ser exatamente CPU → RAM → Disco →
 - [ ] Corrigir `margin-bottom: px;` em `.card-header`.
 - [ ] Validar se a relação cor/texto do badge HA-ON/HA-OFF está de acordo com a regra de negócio esperada.
 - [ ] Garantir que as 5 séries da query sempre cheguem na ordem CPU, RAM, Disco, Temperatura, Status.
+
+MIT - sinta-se livre para usar, modificar e distribuir. Se este card te ajudou e você for compartilhar em alguma rede social, blog ou fórum, considere fazer uma referência a este repositório como base. Isso ajuda a comunidade a encontrar o projeto e contribui para que mais pessoas se beneficiem da solução. 🙌 🔗
